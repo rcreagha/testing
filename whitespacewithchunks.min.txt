@@ -9,7 +9,6 @@
 {%  if not file.is_new_file %}
    <th>%(anchor_html)s%(linenum1)s</th>
    <td%(cell_1_class_attr)s>
-    %(moved_to_html)s
     %(begin_collapse_html)s
     <pre>%(line1)s</pre>
     %(end_collapse_html)s
